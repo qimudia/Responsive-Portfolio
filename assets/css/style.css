@@ -3,8 +3,10 @@ main {
   padding: 10px;
   width: 960px;
   margin: 0 auto;
+ }
+html, body {
+  height: 100%;
 }
-
 .container {
   padding: 10px 20px;
   border-style: solid;
@@ -14,12 +16,13 @@ main {
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #ffffff;
+  font-size:  30px;
   background-color: darkcyan;
   font-weight: bold;
   border-top: 1px solid black;
   padding-top: 10px;
   padding-bottom: 5px;
-  height: 30px;
+  height: 40px;
 }
 
 ul {
@@ -35,12 +38,18 @@ li {
 
 li a {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   padding: 5px 16px;
   color: gray;
   border: 1px;
   text-decoration: none;
+}
+
+p{
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(54, 53, 53)
 }
 
 .row {
@@ -50,6 +59,7 @@ li a {
 h3 {
   background-color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25;
   color: darkcyan;
   font-weight: bold;
   height: 40px;
@@ -70,12 +80,16 @@ h3 {
   border-width: 4px;
   border-style: ridge;
   border-radius: 4px;
-  width: 350px;
-  height: 250px;
+ /* width: 350px;
+  height: 250px;*/
   padding: 5px;
   border-color: darkcyan;
   float: left;
   overflow: auto;
+
+    width: 100%;
+    height: auto;
+
 }
 
 .clearfix::after {
