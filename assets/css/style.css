@@ -17,7 +17,8 @@ h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #ffffff;
   font-size:  30px;
-  background-color: darkcyan;
+  background-color:darkcyan;
+  /*background-color: #34495E;*/
   font-weight: bold;
   border-top: 1px solid black;
   padding-top: 10px;
@@ -118,7 +119,7 @@ h3 {
   background-color: darkcyan;
   color: #ffffff;
   position: absolute;
-  height: 40px;
+  height: 80px;
   width: 100px;
   font-weight: bold;
   font-size: 16px;
@@ -149,22 +150,27 @@ button {
 }
 
 label {
-  display: inline-block;
+  /*display: inline-block;
   clear: left;
+  font-size: 18px;*/
   width: 250px;
+  color: darkcyan;
+ 
+  
+  
 }
 input {
   display: inline-block;
 }
 
 footer {
-  height: 20px;
+  height: 25px;
   border-style: ridge;
   border-width: 4px;
   border-top-color: darkcyan;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   background-color: #666666;
   padding-top: 5px;
